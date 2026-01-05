@@ -104,15 +104,15 @@ export const content = {
   programs: {
     title: "CASLS Programs",
     body: `
-      <h3>Next Generation Library System</h3>
-      <p>The first collaborative project of CASLS was the acquisition of a next generation library system which was implemented on May 15, 2017. The Alma and Primo cloud based platform from Ex Libris best met the consortium’s primary requirements for: a unified resource platform that manages library services for all formats and resource types; provision of a separate search interface for each member library enabling discovery of their print, media, electronic and digital materials; a state of the art yet easy-to-use system offering consolidated less repetitive workflows; and flexibility for each participating institution to comply with local policies and the needs of their parent institutions.</p>
-      <p>Following are links to each CASLS library discovery interface:</p>
+      <h3>Library Catalogue Discovery System</h3>
+      <p>The first collaborative project of CASLS was the acquisition of a new library catalogue discovery system which was implemented on May 15, 2017 after years of planning and several months of implementation milestones. The Alma and Primo cloud–based platform from Ex Libris best met the consortium’s primary requirements: a unified resource platform that manages library services for all formats and resource types; provision of a separate search interface for each member library enabling discovery of their print, media, electronic and digital materials; a state–of–the–art yet easy-to-use system offering consolidated and less repetitive workflows; and flexibility for each participating institution to comply with local policies and the needs of their parent institutions. The system facilitates the benefits of consortium collaboration while enabling members to create separate policies and configurations within their respective databases, which aligns well with CASLS’ values of collaboration plus diversity and flexibility.</p>
+      <p>The advantages that the system offers to our clients are its provision of more convenient and comprehensive access to our library resources while respecting the institutional mandates of each library. Each library maintains a common interface to the Primo Discovery System.</p>
+      <p>Following are links to each CASLS library’s discovery interfaces:</p>
       <ul>
           <li><a href="https://casls-primo-prod.hosted.exlibrisgroup.com/primo-explore/search?sortby=rank&vid=01CASLS_REGINA&lang=en_US">University of Regina</a></li>
           <li><a href="https://casls-primo-prod.hosted.exlibrisgroup.com/primo-explore/search?sortby=rank&vid=01CASLS_SKLEGIS&lang=en_US">Saskatchewan Legislative Library</a></li>
           <li><a href="https://casls-primo-prod.hosted.exlibrisgroup.com/primo-explore/search?sortby=rank&vid=01CASLS_SPL&lang=en_US">Saskatchewan Polytechnic</a></li>
           <li><a href="https://casls-primo-prod.hosted.exlibrisgroup.com/primo-explore/search?vid=01CASLS_GABRIEL&sortby=rank&lang=en_US">Gabriel Dumont Institute</a></li>
-          <li><a href="https://saskhealthauthority.libguides.com/">Saskatchewan Health Authority</a></li>
           <li><a href="https://casls-primo-prod.hosted.exlibrisgroup.com/primo-explore/search?sortby=rank&vid=01CASLS_LSOS&lang=en_US">Law Society of Saskatchewan</a></li>
       </ul>
     `
