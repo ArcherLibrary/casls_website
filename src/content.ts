@@ -86,8 +86,12 @@ export const content = {
     obligations: {
       title: "Obligations of Membership",
       body: `
-        <p>CASLS membership is not limited by geography or library type. All organizations as defined in the CASLS bylaws who meet the conditions of membership below are invited to apply for membership. There are two classes of membership available: full or associate memberships.</p>
+        <p>CASLS membership is not limited by geography or library type. All organizations as defined in the CASLS bylaws who meet the conditions of membership below are invited to apply for membership at <a href="#/membership/procedure">https://casls.ca/membership/application-procedure/</a>. There are two classes of membership available: full or associate memberships.</p>
+        
         <p><strong>Full Membership</strong> requires implementation of the CASLS shared Next Generation Library System (NGLS), currently based on Ex Libris Alma/Primo. A full member is entitled to all privileges of membership including the right to vote at meetings, and the option to opt in or out of other projects undertaken by CASLS.</p>
+        
+        <p><strong>Associate Membership</strong> is available to other organizations not sharing the NGLS but who may be interested in other programs undertaken by CASLS. CASLS encourages prospective members with ideas for potential CASLS projects to contact the Board Chair at <a href="#/contact">https://casls.ca/contact-us/</a>.</p>
+
         <p>As a condition of membership in the CASLS Consortium, all member libraries will:</p>
         <ul>
           <li>Embrace the vision, mission and values of CASLS, and actively participate in the activities and work of the consortium</li>
