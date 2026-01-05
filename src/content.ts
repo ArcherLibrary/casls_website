@@ -66,16 +66,16 @@ export const content = {
     institutions: {
       title: "Member Institutions",
       full: [
-        { name: "Gabriel Dumont Institute", link: "https://gdins.org/student-services/library/", logo: "/logos/gdi.jpg" },
-        { name: "Law Society of Saskatchewan Library", link: "https://www.lawsociety.sk.ca/legal-resources-library/", logo: "/logos/law-society.jpg" },
-        { name: "Saskatchewan Legislative Library", link: "http://www.legassembly.sk.ca/library/", logo: "/logos/legislative-library.jpg" },
-        { name: "Saskatchewan Polytechnic Library", link: "https://library.saskpolytech.ca/", logo: "/logos/sask-polytech.jpg" },
-        { name: "University of Regina Library", link: "https://library.uregina.ca/homepage", logo: "/logos/uregina.jpg" }
+        { name: "Gabriel Dumont Institute", link: "https://gdins.org/student-services/library/", logo: "logos/gdi.jpg" },
+        { name: "Law Society of Saskatchewan Library", link: "https://www.lawsociety.sk.ca/legal-resources-library/", logo: "logos/law-society.jpg" },
+        { name: "Saskatchewan Legislative Library", link: "http://www.legassembly.sk.ca/library/", logo: "logos/legislative-library.jpg" },
+        { name: "Saskatchewan Polytechnic Library", link: "https://library.saskpolytech.ca/", logo: "logos/sask-polytech.jpg" },
+        { name: "University of Regina Library", link: "https://library.uregina.ca/homepage", logo: "logos/uregina.jpg" }
       ],
       associate: [
-        { name: "Learning Resource Centre", link: "https://www.rcmp-grc.gc.ca/depot/library-bibliotheque/index-eng.htm", logo: "/logos/rcmp-lrc.jpg" },
-        { name: "Provincial Archives of Saskatchewan", link: "https://www.saskarchives.com/", logo: "/logos/provincial-archives.jpg" },
-        { name: "Saskatchewan Health Authority Library", link: "https://library.saskhealthauthority.ca", logo: "/logos/sha-library.jpg" }
+        { name: "Learning Resource Centre", link: "https://www.rcmp-grc.gc.ca/depot/library-bibliotheque/index-eng.htm", logo: "logos/rcmp-lrc.jpg" },
+        { name: "Provincial Archives of Saskatchewan", link: "https://www.saskarchives.com/", logo: "logos/provincial-archives.jpg" },
+        { name: "Saskatchewan Health Authority Library", link: "https://library.saskhealthauthority.ca", logo: "logos/sha-library.jpg" }
       ]
     },
     obligations: {

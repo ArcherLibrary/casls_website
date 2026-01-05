@@ -24,7 +24,7 @@ function renderLayout(innerHtml: string) {
     <header class="container">
       <div class="header-top">
         <a href="#/">
-          <img src="/logo.jpg" alt="CASLS Logo" class="logo-img">
+          <img src="logo.jpg" alt="CASLS Logo" class="logo-img">
         </a>
         <h1 class="site-title">CASLS</h1>
         <p class="tagline">The Consortium of Academic and Special Libraries of Saskatchewan</p>
