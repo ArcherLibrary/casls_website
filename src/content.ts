@@ -52,10 +52,15 @@ export const content = {
     procedure: {
       title: "Application Procedure",
       body: `
-        <p>The CASLS Board of Directors will consider requests for membership from organizations that can demonstrate that they meet CASLS’ Obligations of Membership. To apply for membership in CASLS fill out the application form below.</p>
-        <p><a href="mailto:caslsboard@gmail.com">caslsboard@gmail.com</a></p>
+        <p>The CASLS Board of Directors will consider requests for membership from organizations that can demonstrate that they meet CASLS’ Obligations of Membership. To apply for membership in CASLS fill out the Application Form and email it to the Chair of CASLS at <a href="mailto:caslsboard@gmail.com">caslsboard@gmail.com</a>.</p>
+        
+        <p style="margin: 2rem 0;">
+          <a href="/forms/caslspremembershipform.docx" class="btn" download>Download Membership Form (DOCX)</a>
+        </p>
+
+        <h3>The application process is as follows:</h3>
         <ol>
-          <li>The applicant will approach the Chair for an informal discussion. The Chair will ensure that the applicant is aware of the obligations of full membership and is confident the obligations can be met.</li>
+          <li>The applicant may approach the Chair for an informal discussion. The Chair will ensure that the applicant is aware of the obligations of full membership and is confident the obligations can be met.</li>
           <li>If the applicant is likely to meet the obligations of membership, the Chair will make the CASLS Board aware of the applicant’s interest, and facilitate contact between the ILS vendor and the applicant to discuss a quote to install the system.</li>
           <li>Should the applicant wish to proceed after receiving the vendor’s quote, a formal application for membership would be made in the form of a letter from the applicant outlining how they meet the CASLS’ Obligations of Membership and anticipate contributing the CASLS.</li>
           <li>The Board will review the application in confidence and attempt to respond to the applicant in a timely manner.</li>
@@ -87,14 +92,14 @@ export const content = {
         <ul>
           <li>Embrace the vision, mission and values of CASLS, and actively participate in the activities and work of the consortium</li>
           <li>Use appropriate and current technologies as required, fostering consistency for the client</li>
-          <li>Ensure that an adequate level of participation in the work of the Consortium is achieved, including participating in all appropriate committees and working groups at an appropriate level</li>
+          <li>Ensure that an adequate level of participation in the work of the Consortium is achieved, including participating in all appropriate committees and working groups at an appropriate level (in person or by telephone/video conference), commensurate with activity level and size of the institution</li>
           <li>Comply with all CASLS policies, standards, process and requirements</li>
           <li>Ensure financial obligations to the Consortium are met, including annual membership fees</li>
         </ul>
         <p><strong>Full members will also:</strong></p>
         <ul>
           <li>Comply with the Next Generation Library System Services Agreement and related financial obligations</li>
-          <li>Ensure that adequate full-time staff with appropriate library and technological expertise and qualifications are available to manage and maintain the NGLS independently</li>
+          <li>Ensure that adequate full-time staff with appropriate library and technological expertise and qualifications are available to manage and maintain the NGLS independently (i.e. without relying on other consortia members for hosting)</li>
           <li>Willingness and ability to commit to CASLS membership for a minimum of 5 years</li>
           <li>Commit to ensure physical and electronic holdings are catalogued and discoverable by other members’ organizations</li>
         </ul>

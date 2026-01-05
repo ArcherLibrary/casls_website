@@ -44,9 +44,9 @@ function renderLayout(innerHtml: string) {
           <li class="has-dropdown">
             <a href="#/membership" class="${currentPath.startsWith('/membership') ? 'active' : ''}">Membership</a>
             <ul class="dropdown-menu">
-              <li><a href="#/membership">Overview & Obligations</a></li>
-              <li><a href="#/membership/member-institutions">Member Institutions</a></li>
               <li><a href="#/membership/procedure">Application Procedure</a></li>
+              <li><a href="#/membership/member-institutions">Member Institutions</a></li>
+              <li><a href="#/membership/obligations">Obligations of Membership</a></li>
             </ul>
           </li>
           <li><a href="#/programs" class="${currentPath === '/programs' ? 'active' : ''}">Programs</a></li>
@@ -93,7 +93,19 @@ function renderAboutHistory() {
 }
 
 function renderMembershipOverview() {
-  renderContentPage('Membership', content.membership.obligations.body)
+  // Default to procedure page for now, or could serve as a landing
+  renderContentPage('Membership', `
+    <p>Please select a submenu item:</p>
+    <ul>
+      <li><a href="#/membership/procedure">Application Procedure</a></li>
+      <li><a href="#/membership/member-institutions">Member Institutions</a></li>
+      <li><a href="#/membership/obligations">Obligations of Membership</a></li>
+    </ul>
+  `)
+}
+
+function renderMembershipObligations() {
+  renderContentPage(content.membership.obligations.title, content.membership.obligations.body)
 }
 
 function renderMembershipProcedure() {
@@ -132,9 +144,6 @@ function renderMembershipInstitutions() {
   `)
 }
 
-function renderMembershipObligations() {
-  renderContentPage(content.membership.obligations.title, content.membership.obligations.body)
-}
 
 function renderPrograms() {
   renderLayout(`
