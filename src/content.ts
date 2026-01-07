@@ -4,7 +4,7 @@ export const content = {
     body: `
       <p>We are a collaborative network of Saskatchewan libraries and memory institutions. Through CASLS, we share expertise and partner with one another to strengthen the valuable services we deliver to our communities.</p>
       <div style="margin-top: 2rem;">
-        <a href="#/membership/member-institutions" class="button">View Member Institutions!</a>
+        <a href="#/membership/member-institutions" class="button">View Member Institutions</a>
       </div>
     `
   },
